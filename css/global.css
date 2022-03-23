@@ -1,0 +1,50 @@
+/* text */
+.f-s-1rem {
+  font-size: 1rem;
+}
+
+.f-weight-400 {
+  font-weight: 400;
+}
+
+.f-weight-500 {
+  font-weight: 500;
+}
+
+/* Colors */
+
+.black-bg {
+  background-color: #0b1415;
+}
+.aqua-bg {
+  background-color: #2ee9fa;
+}
+
+.black {
+  color: #0b1415;
+}
+.aqua {
+  color: #2ee9fa;
+}
+
+.white {
+  color: #fff;
+}
+
+/* Flex */
+
+.flex {
+  display: flex;
+}
+
+.a-i-center {
+  align-items: center;
+}
+
+.j-c-space-between {
+  justify-content: space-between;
+}
+
+.j-c-space-evenly {
+  justify-content: space-evenly;
+}
