@@ -7,11 +7,40 @@
   height: 48px;
 }
 
+.navbar__link--name {
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.navbar__link--name:after {
+  content: "";
+  position: absolute;
+  background-color: #00aaba;
+  height: 2px;
+  width: 0%;
+  left: 0;
+  bottom: 0;
+  transition: 0.3s;
+  border-radius: 50px;
+}
+
+.navbar__link--name:hover {
+  color: #00aaba;
+}
+
+.navbar__link--name:hover:after {
+  width: 100%;
+}
+
 .navbar__btn {
   background: transparent;
 }
 
 .navbar__btn--style {
   border-radius: 1rem;
-  padding: 0.7rem 1.5rem;
+  padding: 0.9rem 1.8rem;
+}
+.navbar__btn--style:hover {
+  outline: 4px solid #00aaba;
+  transition: 0.2s;
 }
