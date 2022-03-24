@@ -12,6 +12,11 @@
 }
 
 /* text */
+
+.monument {
+  font-family: "Monument Extended", sans-serif;
+}
+
 .f-s-1rem {
   font-size: 1rem;
 }
@@ -27,14 +32,14 @@
 /* Colors */
 
 .black-bg {
-  background-color: #0b1415;
+  background-color: #070b12;
 }
 .aqua-bg {
   background-color: #2ee9fa;
 }
 
 .black {
-  color: #0b1415;
+  color: #090e17;
 }
 .aqua {
   color: #2ee9fa;
@@ -44,10 +49,22 @@
   color: #a0a0a0;
 }
 
+.grey {
+  color: #fff;
+}
+
 /* Flex */
 
 .flex {
   display: flex;
+}
+
+.f-d-column {
+  flex-direction: column;
+}
+
+.a-i-start {
+  align-items: flex-start;
 }
 
 .a-i-center {
