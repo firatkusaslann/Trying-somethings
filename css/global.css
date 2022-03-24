@@ -61,3 +61,6 @@
 .j-c-space-evenly {
   justify-content: space-evenly;
 }
+.j-c-space-center {
+  justify-content: center;
+}
