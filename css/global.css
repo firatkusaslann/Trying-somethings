@@ -13,12 +13,24 @@
 
 /* text */
 
+.futura {
+  font-family: "Futura PT";
+}
+
 .monument {
   font-family: "Monument Extended", sans-serif;
 }
 
 .f-s-1rem {
   font-size: 1rem;
+}
+
+.f-s-2rem {
+  font-size: 2rem;
+}
+
+.f-s-3rem {
+  font-size: 3rem;
 }
 
 .f-weight-400 {
@@ -38,9 +50,14 @@
   background-color: #2ee9fa;
 }
 
+.sec-bg {
+  background-color: #15333d;
+}
+
 .black {
   color: #090e17;
 }
+
 .aqua {
   color: #2ee9fa;
 }
@@ -78,6 +95,7 @@
 .j-c-space-evenly {
   justify-content: space-evenly;
 }
-.j-c-space-center {
+
+.j-c-center {
   justify-content: center;
 }

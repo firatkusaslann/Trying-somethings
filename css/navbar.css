@@ -1,10 +1,10 @@
 .navbar {
-  margin: 2rem 3rem;
+  margin: 2rem auto;
   width: 1440px;
 }
 
 .navbar__links {
-  width: 600px;
+  width: 550px;
   height: 48px;
 }
 
