@@ -1,6 +1,6 @@
 /* Hero section */
 .hero-section {
-  margin: 6rem auto;
+  margin-top: 6rem;
   width: 1110px;
 }
 
@@ -22,7 +22,6 @@
 }
 
 .hero__btn {
-  width: ;
   border-radius: 0.4rem;
   padding: 0.5rem 1.2rem;
   margin-right: 18px;
@@ -68,8 +67,8 @@
 .mid {
   height: 70px;
   width: 70px;
-  right: 400px;
-  top: 450px;
+  right: 350px;
+  top: 400px;
   filter: blur(15px);
 }
 

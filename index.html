@@ -8,48 +8,62 @@
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
     <!-- Monument font cdn  -->
     <link href="http://fonts.cdnfonts.com/css/monument-extended" rel="stylesheet">
 
     <title>UX Short | UI/UX Portfolio </title>
 </head>
 <body class="black-bg">
-    <header>
-        <nav class="navbar flex a-i-center j-c-space-between">
-            <img src="./image/Group 39392.svg" alt="UX Short Logo" class="navbar__logo">
-            <ul class="navbar__links flex a-i-center j-c-space-between">
-                <li class="navbar__link"><a href="#" class="navbar__link--name white f-s-1rem f-weight-300">Home</a></li>
-                <li class="navbar__link"><a href="#" class="navbar__link--name white f-s-1rem f-weight-300">About Me</a></li>
-                <li class="navbar__link"><a href="#" class="navbar__link--name white f-s-1rem f-weight-300">Portfolio</a></li>
-                <li class="navbar__link"><a href="#" class="navbar__link--name white f-s-1rem f-weight-300">Projects</a></li>
-                <!-- <li class="navbar__link btn--blue"><a href="#" class="navbar__link--name">Contact</a></li> -->
-                <!-- <button type="button" class="navbar__btn"> <a href="#" class="navbar__btn--name">Contact</a></button> -->
-                <button type="button" class="navbar__btn"><a href="#" class="navbar__btn--style aqua-bg black f-s-1rem f-weight-400">Contact Me</a></button>
-            </ul>
-        </nav>
-
-    <div class="hero-section flex a-i-start j-c-space-between">
-        <div class="hero-left  flex f-d-column a-i-start j-c-space-between">
-            <p class="hero__header grey monument f-s-3rem">Here is My <span class="aqua monument">Portfolio</span></p>
-            <p class="hero__description futura white f-weight-300">Lorem ipsum dolor sit amet consectetur adipisicing adipisicing elit. Quo, alias deserunt praesentium ad ex magni sit, repudiandae provident nesciunt eveniet aliquam quas exercitationem.</p>
-        <div class="hero__buttons">
-            <button type="button" class="hero__btn ghost aqua sec-bg f-s-1rem f-weight-300">Portfolio</button>
-            <button type="button" class="hero__btn fill  aqua-bg black f-s-1rem f-weight-400">Contact</button>
-        </div>
-        <div class="hero-ok">
-            <img src="./image/icons/ok.svg" alt="">
-        </div>
-        </div>
-        <div class="hero-right">
-            <div class="hero__right--img flex  j-c-space-between">
-                <div class="blur-effect big"></div>
-                <div class="blur-effect mid"></div>
-                <div class="blur-effect little"></div>
-                <img src="./image/ps 1.svg" >
-                <img src="./image/ps 2.svg" class="top">
+<div class="all-container flex f-d-column a-i-center j-c-center">
+    <header class="flex f-d-column a-i-center j">
+       <nav class="navbar flex a-i-center j-c-space-between">
+                <img src="./image/Group 39392.svg" alt="UX Short Logo" class="navbar__logo">
+                <ul class="navbar__links flex a-i-center j-c-space-between">
+                    <li class="navbar__link"><a href="#" class="navbar__link--name white f-s-1rem f-weight-300">Home</a></li>
+                    <li class="navbar__link"><a href="#" class="navbar__link--name white f-s-1rem f-weight-300">About Me</a></li>
+                    <li class="navbar__link"><a href="#" class="navbar__link--name white f-s-1rem f-weight-300">Portfolio</a></li>
+                    <li class="navbar__link"><a href="#" class="navbar__link--name white f-s-1rem f-weight-300">Projects</a></li>
+                    <!-- <li class="navbar__link btn--blue"><a href="#" class="navbar__link--name">Contact</a></li> -->
+                    <!-- <button type="button" class="navbar__btn"> <a href="#" class="navbar__btn--name">Contact</a></button> -->
+                    <button type="button" class="navbar__btn"><a href="#" class="navbar__btn--style aqua-bg black f-s-1rem f-weight-400">Contact Me</a></button>
+                </ul>
+       </nav>
+       <div class="hero-section flex a-i-start j-c-space-between">
+            <div class="hero-left  flex f-d-column a-i-start j-c-space-between">
+                <p class="hero__header grey monument f-s-3rem">Here is My <span class="aqua monument">Portfolio</span></p>
+                <p class="hero__description futura white f-weight-300">Lorem ipsum dolor sit amet consectetur adipisicing adipisicing elit. Quo, alias deserunt praesentium ad ex magni sit, repudiandae provident nesciunt eveniet aliquam quas exercitationem.</p>
+            <div class="hero__buttons">
+                <button type="button" class="hero__btn ghost aqua sec-bg f-s-1rem f-weight-300">Portfolio</button>
+                <!-- <button type="button" class="hero__btn fill  aqua-bg black f-s-1rem f-weight-400">Contact</button> -->
+            </div>
+            <div class="hero-ok">
+                <img src="./image/icons/ok.svg" alt="">
+            </div>
+            </div>
+            <div class="hero-right">
+                <div class="hero__right--img flex  j-c-space-between">
+                    <div class="blur-effect big"></div>
+                    <div class="blur-effect mid"></div>
+                    <div class="blur-effect little"></div>
+                    <img src="./image/ps 1.svg" >
+                    <img src="./image/ps 2.svg" class="top">
+                </div>
+            </div>
+       </div>
+    </header>
+    <section class="portfolio-section">
+        <div class="portfolios">
+            <div class="portfolio__card">
+                    <img src="./" class="portfolio__card--img">
+                    <div class="portfolio__card .text--bg">
+                    <p class="portfolio__card--title"></p>
+                    <p class="portfolio__card__description"></p>
+                    </div>
             </div>
         </div>
-    </div>
-    </header>
+    </section>
+
+</div>
 </body>
 </html>
