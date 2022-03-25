@@ -1,6 +1,6 @@
 .navbar {
   margin: 2rem auto;
-  width: 1440px;
+  width: 1200px;
 }
 
 .navbar__links {
@@ -17,7 +17,7 @@
   content: "";
   position: absolute;
   background-color: #00aaba;
-  height: 2px;
+  height: 1px;
   width: 0%;
   left: 0;
   bottom: 0;
@@ -38,11 +38,11 @@
 }
 
 .navbar__btn--style {
-  border-radius: 1rem;
-  padding: 0.9rem 1.8rem;
+  border-radius: 0.4rem;
+  padding: 0.5rem 1.2rem;
 }
 
 .navbar__btn--style:hover {
-  outline: 4px solid #00aaba;
+  outline: 3px solid #00aaba;
   transition: 0.2s;
 }

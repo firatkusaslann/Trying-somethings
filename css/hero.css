@@ -1,11 +1,14 @@
+/* Hero section */
 .hero-section {
   margin: 6rem auto;
-  width: 1440px;
+  width: 1200px;
 }
+
+/* Hero Left */
 
 .hero-left {
   width: 433px;
-  height: 500px;
+  height: 325px;
 }
 
 .hero__header {
@@ -15,11 +18,40 @@
 }
 
 .hero__description {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .hero__btn {
-  padding: 0.9rem 2.4rem;
-  border-radius: 1rem;
-  margin-right: 24px;
+  border-radius: 0.4rem;
+  padding: 0.5rem 1.2rem;
+  margin-right: 18px;
+  margin-top: 2rem;
+}
+
+/*  Hero Right */
+.hero-right {
+  width: 355px;
+  height: 490px;
+}
+
+.hero__right--img {
+  position: relative;
+}
+
+.top {
+  position: absolute;
+  top: 130px;
+  left: 180px;
+}
+
+.blur-effect {
+  position: absolute;
+  background-color: aqua;
+  height: 265px;
+  width: 265px;
+  left: 40px;
+  top: 130px;
+  z-index: -100;
+  border-radius: 50%;
+  filter: blur(150px);
 }
