@@ -1,11 +1,14 @@
 .navbar {
-  margin: 2rem auto;
-  width: 1200px;
+  margin: 1.5rem auto;
+  width: 1110px;
+}
+
+.navbar__logo {
+  width: 140px;
 }
 
 .navbar__links {
   width: 550px;
-  height: 48px;
 }
 
 .navbar__link--name {
