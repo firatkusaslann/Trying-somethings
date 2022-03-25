@@ -12,6 +12,11 @@
   padding: 40px;
 }
 
+.portfolio__card:hover {
+  background-color: #0d1016;
+  transition: 0.5s;
+}
+
 .portfolio__card--img {
   width: 200px;
 }
@@ -20,4 +25,8 @@
   letter-spacing: 0.7px;
   line-height: 18px;
   margin-top: 10px;
+}
+
+.portfolio__card--link img {
+  padding-left: 10px;
 }
