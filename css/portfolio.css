@@ -1,0 +1,23 @@
+.portfolios {
+  width: 1000px;
+  height: 280px;
+  margin: 90px auto;
+}
+
+.portfolio__card {
+  width: 320px;
+  height: 278px;
+  background-color: #121a28;
+  border-radius: 25px;
+  padding: 40px;
+}
+
+.portfolio__card--img {
+  width: 200px;
+}
+
+.portfolio__card--description {
+  letter-spacing: 0.7px;
+  line-height: 18px;
+  margin-top: 10px;
+}

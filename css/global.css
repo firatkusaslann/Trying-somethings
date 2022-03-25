@@ -21,6 +21,10 @@
   font-family: "Monument Extended", sans-serif;
 }
 
+.f-s-0-8rem {
+  font-size: 0.8rem;
+}
+
 .f-s-1rem {
   font-size: 1rem;
 }
@@ -31,6 +35,10 @@
 
 .f-s-3rem {
   font-size: 3rem;
+}
+
+.f-weight-200 {
+  font-weight: 200;
 }
 
 .f-weight-300 {
@@ -66,11 +74,11 @@
   color: #2ee9fa;
 }
 
-.white {
+.grey {
   color: #a0a0a0;
 }
 
-.grey {
+.white {
   color: #fff;
 }
 
