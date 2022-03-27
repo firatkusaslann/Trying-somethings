@@ -13,7 +13,7 @@
 
 .portfolio__card:hover {
   background-color: #15333d;
-  transition: 0.5s;
+  transition: 0.9s;
 }
 
 .portfolio__card--img {
