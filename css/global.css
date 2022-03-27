@@ -22,7 +22,7 @@
 }
 
 .f-s-0-8rem {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .f-s-1rem {
@@ -64,6 +64,10 @@
 
 .sec-bg {
   background-color: #15333d;
+}
+
+.t-bg-black {
+  background-color: #0d1016;
 }
 
 .black {

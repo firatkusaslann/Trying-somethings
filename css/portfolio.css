@@ -6,25 +6,24 @@
 
 .portfolio__card {
   width: 320px;
-  height: 278px;
-  background-color: #121a28;
+  height: 290px;
   border-radius: 25px;
-  padding: 40px;
+  padding: 30px;
 }
 
 .portfolio__card:hover {
-  background-color: #0d1016;
+  background-color: #15333d;
   transition: 0.5s;
 }
 
 .portfolio__card--img {
-  width: 200px;
+  width: 170px;
 }
 
 .portfolio__card--description {
-  letter-spacing: 0.7px;
-  line-height: 18px;
-  margin-top: 10px;
+  letter-spacing: 0.8px;
+  line-height: 21px;
+  margin-top: 8px;
 }
 
 .portfolio__card--link img {
